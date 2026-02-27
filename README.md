@@ -1,8 +1,4 @@
-Aquí tienes el contenido **corregido, estructurado y listo para tu `README.md`** en formato profesional:
-
----
-
-````markdown
+markdown
 # DTP Attack Lab
 
 ## Ejecución del Script
@@ -13,7 +9,7 @@ sudo python3 dtp_attack.py
 
 ---
 
-## 🎯 Objetivo del Script
+##  Objetivo del Script
 
 El objetivo del script es permitir que quien lo ejecute pueda modificar el modo en el que se encuentra la interfaz del switch asignada, forzándola a modo **troncal (trunk)**.
 
@@ -26,7 +22,7 @@ Esto puede generar una brecha de seguridad en la red, ya que un puerto en modo t
 
 ---
 
-## 🖥️ Topología Utilizada
+##  Topología Utilizada
 
 ### Dispositivos:
 
@@ -48,16 +44,16 @@ Esto puede generar una brecha de seguridad en la red, ya que un puerto en modo t
 
 ---
 
-## ⚙️ Parámetros Necesarios
+##  Parámetros Necesarios
 
 * El puerto objetivo debe estar en modo **dynamic desirable** para que la negociación DTP funcione.
 * Se debe conocer la interfaz de red a la que está conectada la máquina atacante.
 
 ---
 
-## 📦 Requisitos para Utilizar la Herramienta
+##  Requisitos para Utilizar la Herramienta
 
-### 1️⃣ Instalar Yersinia
+###  Instalar Yersinia
 
 El script utiliza Yersinia para el envío de paquetes DTP.
 
@@ -67,7 +63,7 @@ sudo apt install yersinia -y
 
 ---
 
-### 2️⃣ Instalar Python 3
+###  Instalar Python 3
 
 ```bash
 sudo apt install python3 -y
@@ -81,7 +77,7 @@ python3 --version
 
 ---
 
-### 3️⃣ Instalar Scapy
+###  Instalar Scapy
 
 ```bash
 sudo apt install python3-pip -y
@@ -90,23 +86,12 @@ pip3 install scapy
 
 ---
 
-## ⚠️ Nota Importante
+##  Nota Importante
 
 Esta herramienta debe utilizarse únicamente en un **entorno de laboratorio controlado** con fines educativos y de aprendizaje en seguridad de redes.
 
 No debe utilizarse en redes reales sin autorización explícita.
 
-```
-
----
-
-Si quieres, también puedo:
-
-- Mejorarlo con formato más profesional tipo proyecto universitario 📘  
-- Agregar sección de **capturas de pantalla**
-- Agregar diagrama de topología
-- Convertirlo en documentación completa de práctica
-- O dejarlo listo para entrega formal 🚀
 ```
 
 sudo apt install python3-scapy -y.
