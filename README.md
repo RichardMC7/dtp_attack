@@ -21,9 +21,13 @@ inter vlan routing utilizando router-on-stick y direccionamiento dhcp utilizando
 -Conocer la interfaz a la que esta concectada la maquina atacante
 
 # Requisitos para utilizar la herramienta.
--se debe tener la herramienta yersinia ya que el script utiliza dicha herramienta para enviar los paquetes de ataque dtp.
+-Se debe tener la herramienta yersinia ya que el script utiliza dicha herramienta para enviar los paquetes de ataque dtp.
+sudo apt install yersinia -y
 -descargar python3
--descargar scapy
+sudo apt install python3 -y
+-Descargar scapy
+sudo apt install python3-pip -y
+sudo apt install python3-scapy -y
 
 # Medidas de mitigación.
 Para mitigar este ataque, basta con configurar el puerto en modo nonegotiate (switchport nonegotiate).
